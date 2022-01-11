@@ -1,32 +1,21 @@
 {
-    "name": "topthink/think-captcha",
-    "description": "captcha package for thinkphp",
-    "authors": [
-        {
-            "name": "yunwuxin",
-            "email": "448901948@qq.com"
-        }
-    ],
-    "license": "Apache-2.0",
-    "require": {
-        "topthink/framework": "^6.0.0"
-    },
+    "name": "raiseinfo/think-captcha",
+    "description": "A verification code package supporting API interface",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "think\\captcha\\": "src/"
-        },
-        "files": [
-            "src/helper.php"
-        ]
-    },
-    "extra": {
-        "think": {
-            "services": [
-                "think\\captcha\\CaptchaService"
-            ],
-            "config":{
-                "captcha": "src/config.php"
-            }            
+            "Raiseinfo\\ThinkCaptcha\\": "src/"
         }
-    }
+    },
+    "authors": [
+        {
+            "name": "tianby",
+            "email": "494901823@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php":">=7.0"
+	}
 }

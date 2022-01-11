@@ -9,7 +9,7 @@
 // | Author: hardphp <hardphp@163.com>
 // +----------------------------------------------------------------------
 
-namespace think\captcha;
+namespace Raiseinfo\ThinkCaptcha;
 
 use Exception;
 use think\Config;

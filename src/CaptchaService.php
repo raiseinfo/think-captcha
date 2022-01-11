@@ -1,6 +1,6 @@
 <?php
 
-namespace think\captcha;
+namespace Raiseinfo\ThinkCaptcha;
 
 use think\Route;
 use think\Service;

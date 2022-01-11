@@ -1,6 +1,6 @@
 <?php
 
-namespace think\captcha\facade;
+namespace Raiseinfo\ThinkCaptcha\facade;
 
 use think\Facade;
 
