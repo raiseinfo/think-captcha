@@ -1,16 +1,19 @@
 {
     "name": "raiseinfo/think-captcha",
-    "description": "A verification code package supporting API interface",
-    "license": "Apache-2.0",
+    "description": "captcha package for thinkphp",
     "authors": [
         {
-            "name": "tianby",
-            "email": "494901823@qq.com"
+            "name": "yunwuxin",
+            "email": "448901948@qq.com"
         }
     ],
+    "license": "Apache-2.0",
+    "require": {
+        "topthink/framework": "^6.0.0"
+    },
     "autoload": {
         "psr-4": {
-            "think\\captcha\\": "src/"
+            "raiseinfo\\captcha\\": "src/"
         },
         "files": [
             "src/helper.php"
@@ -19,15 +22,11 @@
     "extra": {
         "think": {
             "services": [
-                "think\\captcha\\CaptchaService"
+                "raiseinfo\\captcha\\CaptchaService"
             ],
             "config":{
                 "captcha": "src/config.php"
-            }
+            }            
         }
-    },
-    "require": {
-        "topthink/framework": "^6.0.0"
     }
 }
-

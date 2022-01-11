@@ -1,18 +1,18 @@
 <?php
 
-namespace Raiseinfo\ThinkCaptcha\facade;
+namespace raiseinfo\captcha\facade;
 
 use think\Facade;
 
 /**
  * Class Captcha
  * @package think\captcha\facade
- * @mixin \think\captcha\Captcha
+ * @mixin \raiseinfo\captcha\Captcha
  */
 class Captcha extends Facade
 {
     protected static function getFacadeClass()
     {
-        return \think\captcha\Captcha::class;
+        return \raiseinfo\captcha\Captcha::class;
     }
 }

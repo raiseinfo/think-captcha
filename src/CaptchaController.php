@@ -9,7 +9,7 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace Raiseinfo\ThinkCaptcha;
+namespace raiseinfo\captcha;
 
 class CaptchaController
 {

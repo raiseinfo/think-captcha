@@ -1,6 +1,6 @@
 <?php
 
-namespace Raiseinfo\ThinkCaptcha;
+namespace raiseinfo\captcha;
 
 use think\Route;
 use think\Service;
@@ -17,7 +17,7 @@ class CaptchaService extends Service
         });
 
         $this->registerRoutes(function (Route $route) {
-            $route->get('captcha/[:config]', "\\think\\captcha\\CaptchaController@index");
+            $route->get('captcha/[:config]', "\\raiseinfo\\captcha\\CaptchaController@index");
         });
     }
 }
